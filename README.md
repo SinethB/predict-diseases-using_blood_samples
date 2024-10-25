@@ -50,7 +50,7 @@ Predict_Diseases_Using_Blood_Samples/
 
 1. **Training the Model:**  
    The model is trained on `Blood_samples_dataset_balanced.csv`. The Random Forest classifier is used, and both the model and the `LabelEncoder` are saved in `predict_disease_based_on_blood_samples.pkl`
-2. **Making Predictions: ** 
+2. **Making Predictions:** 
    To make predictions on new data, load the saved model and use it to predict the health status of people from a new dataset (`people_blood_records.csv`). Here's how you can run it:
 
   - Predict from CSV
