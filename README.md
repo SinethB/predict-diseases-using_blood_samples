@@ -1,7 +1,7 @@
 # Disease Prediction Using Blood Samples
 
 ## Overview
-An advanced machine learning system that predicts various health conditions (including diabetes and thalassemia) using blood sample analysis. The model achieves 100% accuracy using a Random Forest Classifier trained on a balanced dataset, with integrated label encoding for seamless prediction deployment.
+An advanced machine learning system that predicts various health conditions (including diabetes and thalassemia) using blood sample analysis. The model achieves 93% accuracy using a Random Forest Classifier trained on a balanced dataset, with integrated label encoding for seamless prediction deployment.
 
 ## Key Features
 - Multi-disease classification capability
@@ -102,9 +102,9 @@ results = pd.DataFrame({
 ```
 
 ## Model Performance Metrics
-- **Accuracy**: 100%
-- **Precision**: 100%
-- **Recall**: 100%
+- **Accuracy**: 93%
+- **Precision**: 95%
+- **Recall**: 92%
 
 ### Confusion Matrix Visualization
 ```python
@@ -136,7 +136,7 @@ plt.show()
 - [ ] Interactive dashboard for predictions
 
 ## Technical Requirements
-- Python 3.x
+- Python 3.10
 - scikit-learn
 - pandas
 - numpy
